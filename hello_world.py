@@ -1,0 +1,1 @@
+print('Hello Thunder God!')
