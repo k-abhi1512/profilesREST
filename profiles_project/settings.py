@@ -72,6 +72,7 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'profiles_project.wsgi.application'
 
+AUTHENTICATION_BACKENDS = ['django.contrib.auth.backends.AllowAllUsersModelBackend']
 
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
